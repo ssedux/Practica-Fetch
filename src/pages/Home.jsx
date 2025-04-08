@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 
-const Home = () => {
+const  Home = () => {
     return (
         <div className="home">
             <header className="home-header">

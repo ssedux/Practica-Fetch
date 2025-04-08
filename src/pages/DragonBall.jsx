@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import DragonBallCard from '.././components/CardDragonBall.jsx'
+
 const DragonBall = () => {
 const apiUrl = 'https://dragonball-api.com/api/characters'; //url de la api
 const [characters, setCharacters] = useState([]) //estado para almacenar los datos consultados 
